@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ProfileActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="PROFILE"
+        android:id="@+id/toolbarP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/textfirstName"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="FIRST NAME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textlastName"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="LAST NAME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Email Id"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textAddress"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/textPhone"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="Phone no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/textPassword"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnEditProfile"
+        android:text="edit profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
